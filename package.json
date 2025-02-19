@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "My portfolio",
+  "homepage": "https://github.com/jonhenrikaavitsland/portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/jonhenrikaavitsland/portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonhenrikaavitsland/portfolio.git"
+  },
+  "license": "ISC",
+  "author": "Jon Henrik Åvitsland (https://www.linkedin.com/in/jon-henrik-aavitsland-abaa872b7/)",
+  "type": "commonjs",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "test"
+  }
+}

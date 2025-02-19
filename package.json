@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "author": "Jon Henrik Åvitsland (https://www.linkedin.com/in/jon-henrik-aavitsland-abaa872b7/)",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.jsx",
   "scripts": {
     "dev": "vite",

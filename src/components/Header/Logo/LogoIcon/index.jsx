@@ -13,7 +13,7 @@
  */
 export default function LogoIcon() {
   return (
-    <div className='bg-black w-10 aspect-square flex justify-center items-center rounded-full mx-auto lg:mx-0'>
+    <div className='bg-black w-10 aspect-square flex justify-center items-center rounded-full mx-auto md:mx-0'>
       <img src='/j-sharp-solid.svg' alt='capital letter j on dark background' className='w-[19px]' />
     </div>
   );

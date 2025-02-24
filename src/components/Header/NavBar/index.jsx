@@ -16,8 +16,8 @@ import NavLinkElement from './NavLinkElement';
  */
 export default function NavBar() {
   return (
-    <nav>
-      <ul className='hidden md:flex gap-10'>
+    <nav className='hidden md:flex grow justify-end'>
+      <ul className='flex gap-10'>
         <NavLinkElement>projects</NavLinkElement>
         <NavLinkElement>skills</NavLinkElement>
         <NavLinkElement>contact</NavLinkElement>

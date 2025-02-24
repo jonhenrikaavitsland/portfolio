@@ -30,7 +30,9 @@ export default function BioCard() {
           <h1 className='font-bold text-2xl leading-8'>Jon Henrik Åvitsland</h1>
           <div className='flex gap-1.5 mx-auto md:mx-0'>
             <Tag>frontend developer</Tag>
-            <Tag>UI/UX Designer</Tag>
+            <Tag>
+              <span className='uppercase'>ui/ux</span> designer
+            </Tag>
           </div>
           <p>
             <span className='capitalize'>passionate</span> about creating engaging web experiences

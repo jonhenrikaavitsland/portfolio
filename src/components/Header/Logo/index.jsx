@@ -20,9 +20,9 @@ import LogoIcon from './LogoIcon';
  */
 export default function Logo() {
   return (
-    <div className='flex flex-col xl:flex-row gap-2.5 xl:gap-5 items-center'>
+    <div className='flex flex-col md:flex-row gap-2.5 md:gap-5 items-center'>
       <LogoIcon />
-      <span className='font-semibold text-xl xl:text-2.5xl text-center xl:text-start capitalize'>frontend developer portfolio</span>
+      <span className='font-semibold text-xl md:text-2.5xl text-center md:text-start capitalize'>frontend developer portfolio</span>
     </div>
   );
 }

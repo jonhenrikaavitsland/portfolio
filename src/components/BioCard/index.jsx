@@ -1,5 +1,24 @@
 import Tag from './Tag';
 
+/**
+ * Renders the BioCard component which displays personal profile information.
+ *
+ * This component displays a profile card with a semi-transparent dark background that includes:
+ * - A profile image (using an SVG placeholder).
+ * - The user's name as a prominent heading.
+ * - Two tags indicating the user's roles (e.g., "frontend developer" and "UI/UX Designer") using the Tag component.
+ * - A short descriptive text highlighting the user's passion for creating engaging web experiences.
+ * - A call-to-action button ("view projects") for navigating to the user's projects.
+ *
+ * The layout is responsive, adjusting between column and row layouts based on screen size using Tailwind CSS utility classes.
+ *
+ * @component
+ * @example
+ * // Example usage:
+ * <BioCard />
+ *
+ * @returns {JSX.Element} The rendered BioCard component.
+ */
 export default function BioCard() {
   return (
     <div className='bg-black/60'>

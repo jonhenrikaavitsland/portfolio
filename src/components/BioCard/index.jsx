@@ -19,7 +19,7 @@ export default function BioCard() {
         </section>
         <div className='flex grow items-center justify-center md:justify-end'>
           <div>
-            <button className='p-3 rounded-lg capitalize w-40 bg-black text-white font-semibold'>view projects</button>
+            <button className='p-3 rounded-lg capitalize w-40 bg-black hover:bg-black/60 text-white font-semibold cursor-pointer'>view projects</button>
           </div>
         </div>
       </div>

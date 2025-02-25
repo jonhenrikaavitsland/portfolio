@@ -24,7 +24,7 @@ import ExperienceCard from './ExperienceCard';
  * @returns {JSX.Element} The rendered SkillsCard component.
  */
 export default function SkillsCard() {
-  const tagsFrontend = ['HTML', 'CSS', 'JavaScript', 'react', 'bootstrap', 'tailwind'];
+  const tagsFrontend = ['HTML', 'CSS', 'JavaScript', 'react', 'bootstrap', 'tailwind', 'vite'];
   const tagsUiUx = ['figma', 'Accessibility', 'design principles'];
   const tagsProblemSolving = ['project management', 'agile methodology', 'kanban', 'gantt', 'user testing', 'unit-testing', 'E2E testing', 'jest', 'vitest', 'cypress', 'playwright'];
 

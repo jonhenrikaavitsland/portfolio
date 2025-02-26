@@ -6,15 +6,19 @@ import ProjectsCard from './components/ProjectsCard';
 import SkillsCard from './components/SkillsCard';
 
 /**
- * The main App component that renders the overall layout of the application.
+ * The main App component that defines the overall layout of the application.
  *
- * This component sets up the application's primary structure using a flex container that spans the full device viewport height.
- * It renders a Header component at the top, followed by a main content area that includes:
- * - BioCard: Displays the user's biography or profile details.
- * - SkillsCard: Showcases the user's skills and expertise.
- * - ProjectsCard: Displays a selection of the user's projects.
- * - Contact: Provides contact information and links for getting in touch.
- * - Footer: Renders the footer with copyright and legal information.
+ * This component structures the application into three primary sections:
+ * - A header rendered by the `Header` component.
+ * - A main content area rendered by the `main` element, which includes:
+ *   - `BioCard`: Displays personal profile or biography information.
+ *   - `SkillsCard`: Showcases skills and expertise.
+ *   - `ProjectsCard`: Highlights a selection of projects.
+ *   - `Contact`: Provides contact information and links for further engagement.
+ * - A footer rendered by the `Footer` component.
+ *
+ * The layout is organized using a flex container that spans the full device viewport height,
+ * ensuring a responsive and well-structured user interface.
  *
  * @component
  * @example

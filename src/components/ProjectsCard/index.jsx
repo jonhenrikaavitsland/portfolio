@@ -41,7 +41,7 @@ export default function ProjectsCard() {
             <img src='/chart-kanban-duotone-solid.svg' alt='projects icon' className='h-20 md:h-45 aspect-square' />
           </div>
         </div>
-        <div className='flex flex-wrap gap-10 mx-auto'>
+        <div className='flex flex-wrap gap-10'>
           <Project
             image={holidaze}
             tags={tagsHolidaze}

@@ -1,3 +1,17 @@
+/**
+ * Renders the Footer component of the application.
+ *
+ * This component displays a footer with centered, capitalized text that includes copyright
+ * information along with a link to the developer's LinkedIn profile. The link is styled with an underline,
+ * bold font, and a blue color, providing visual emphasis. The footer text is responsive with defined font size and padding.
+ *
+ * @component
+ * @example
+ * // Example usage:
+ * <Footer />
+ *
+ * @returns {JSX.Element} The rendered footer element.
+ */
 export default function Footer() {
   return (
     <footer className='capitalize text-center text-xl/7 py-15'>

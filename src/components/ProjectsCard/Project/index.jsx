@@ -34,7 +34,7 @@ import Tag from '../../BioCard/Tag';
  *
  * @returns {JSX.Element} The rendered project card component.
  */
-export default function Project({ image, children, tags, project, liveUrl, repoUrl }) {
+export default function Project({ image, children, tags, project, liveUrl, repoUrl, description }) {
   return (
     <div className='flex flex-col rounded-md border border-black/20 w-min shadow-md shadow-black/20'>
       <div className='h-60 md:h-74 aspect-square relative'>
@@ -44,13 +44,14 @@ export default function Project({ image, children, tags, project, liveUrl, repoU
         </div>
       </div>
       <section className='flex flex-col gap-2 p-3 grow justify-between'>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 pb-5'>
           <h3 className='capitalize font-bold'>{children}</h3>
           <div className='flex flex-wrap gap-1'>
             {tags.map((tag) => (
               <Tag key={tag}>{tag}</Tag>
             ))}
           </div>
+          {description}
         </div>
         <div className='flex gap-2'>
           <div className='flex-1'>

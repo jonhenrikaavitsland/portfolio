@@ -41,14 +41,50 @@ export default function ProjectsCard() {
             <img src='/chart-kanban-duotone-solid.svg' alt='projects icon' className='h-20 md:h-45 aspect-square' />
           </div>
         </div>
-        <div className='flex flex-wrap gap-10 mx-auto'>
-          <Project image={holidaze} tags={tagsHolidaze} project='project exam 2' liveUrl='https://holidaze-fuerteventura.netlify.app/' repoUrl='https://github.com/jonhenrikaavitsland/holidaze'>
+        <div className='flex flex-wrap gap-10'>
+          <Project
+            image={holidaze}
+            tags={tagsHolidaze}
+            project='project exam 2'
+            liveUrl='https://holidaze-fuerteventura.netlify.app/'
+            repoUrl='https://github.com/jonhenrikaavitsland/holidaze'
+            description={
+              <p>
+                <span className='capitalize'>holidaze</span> is a modern, responsive accommodation booking web application developed as part of my final exam project in frontend development. This application serves both a customer-facing
+                side—allowing users to browse and book holiday venues—and an admin-facing side—enabling venue managers to register, manage venues, and handle bookings.
+              </p>
+            }
+          >
             holidaze
           </Project>
-          <Project image={bidbliss} tags={tagsBidBliss} project='semester project 2' liveUrl='https://bidbliss.netlify.app/' repoUrl='https://github.com/jonhenrikaavitsland/bid-bliss'>
+          <Project
+            image={bidbliss}
+            tags={tagsBidBliss}
+            project='semester project 2'
+            liveUrl='https://bidbliss.netlify.app/'
+            repoUrl='https://github.com/jonhenrikaavitsland/bid-bliss'
+            description={
+              <p>
+                <span className='capitalize'>the</span> online auction marketplace that makes bidding blissful! An auction marketplace that keeps the buyers and sellers anonymous while maintaining an elegant design and layout. Upon registering, users
+                are given 1000 credits to use on the page.
+              </p>
+            }
+          >
             bidBliss
           </Project>
-          <Project image={jsfw} tags={tagsJsFw} project='frontend frameworks CA' liveUrl='https://my-jsfw-ca.netlify.app/' repoUrl='https://github.com/jonhenrikaavitsland/jsf-ca'>
+          <Project
+            image={jsfw}
+            tags={tagsJsFw}
+            project='frontend frameworks CA'
+            liveUrl='https://my-jsfw-ca.netlify.app/'
+            repoUrl='https://github.com/jonhenrikaavitsland/jsf-ca'
+            description={
+              <p>
+                <span className='capitalize'>the</span> online shop was created as a first react project to demonstrate what I had learned about frontend frameworks. The app features a website that sells a variety of different products were the user
+                can add to cart and complete the purchasing process.
+              </p>
+            }
+          >
             online shop
           </Project>
         </div>

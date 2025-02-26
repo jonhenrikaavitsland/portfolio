@@ -36,9 +36,9 @@ import Tag from '../../BioCard/Tag';
  */
 export default function Project({ image, children, tags, project, liveUrl, repoUrl, description }) {
   return (
-    <div className='flex flex-col rounded-md border border-black/20 w-min shadow-md shadow-black/20'>
-      <div className='h-60 md:h-74 aspect-square relative'>
-        <img src={image} alt={`${children} screenshot`} className='h-60 md:h-74 aspect-square object-cover object-top' />
+    <div className='flex flex-col rounded-md border flex-5/6 md:flex-1 border-black/20 w-min shadow-md shadow-black/20'>
+      <div className='relative'>
+        <img src={image} alt={`${children} screenshot`} className='h-74 w-full object-contain object-top' />
         <div className='absolute top-0 left-0'>
           <Tag>{project}</Tag>
         </div>

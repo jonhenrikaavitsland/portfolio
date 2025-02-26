@@ -1,3 +1,17 @@
+/**
+ * Renders the Contact section for the website.
+ *
+ * This component displays a "get in touch" section with a heading and a brief message inviting collaboration.
+ * It also provides two call-to-action buttons linking to external profiles (LinkedIn and GitHub).
+ * The layout is responsive, adapting between a column layout on small screens and a row layout on medium screens.
+ *
+ * @component
+ * @example
+ * // Example usage:
+ * <Contact />
+ *
+ * @returns {JSX.Element} The rendered contact section.
+ */
 export default function Contact() {
   return (
     <div className='border-b border-black/20'>

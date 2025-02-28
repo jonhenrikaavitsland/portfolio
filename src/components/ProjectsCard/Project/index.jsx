@@ -53,14 +53,14 @@ export default function Project({ image, children, tags, project, liveUrl, repoU
           </div>
           {description}
         </div>
-        <div className='flex gap-2'>
+        <div className='flex flex-wrap gap-2'>
           <div className='flex-1'>
-            <a href={liveUrl} target='blank' className='p-3 block w-full text-center rounded-lg capitalize bg-black hover:bg-black/60 text-white font-semibold cursor-pointer'>
+            <a href={liveUrl} target='blank' className='whitespace-nowrap p-3 block w-full text-center rounded-lg capitalize bg-black hover:bg-black/60 text-white font-semibold cursor-pointer'>
               live site
             </a>
           </div>
           <div className='flex-1'>
-            <a href={repoUrl} target='blank' className='p-2.75 block w-full text-center rounded-lg capitalize border border-black hover:bg-black/20 text-black font-semibold cursor-pointer'>
+            <a href={repoUrl} target='blank' className='whitespace-nowrap p-2.75 block w-full text-center rounded-lg capitalize border border-black hover:bg-black/20 text-black font-semibold cursor-pointer'>
               view code
             </a>
           </div>

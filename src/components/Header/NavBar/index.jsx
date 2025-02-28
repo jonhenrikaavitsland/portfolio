@@ -18,9 +18,9 @@ export default function NavBar() {
   return (
     <nav className='hidden md:flex grow justify-end'>
       <ul className='flex gap-10'>
-        <NavLinkElement>projects</NavLinkElement>
-        <NavLinkElement>skills</NavLinkElement>
-        <NavLinkElement>contact</NavLinkElement>
+        <NavLinkElement path='#projects'>projects</NavLinkElement>
+        <NavLinkElement path='#skills'>skills</NavLinkElement>
+        <NavLinkElement path='#contact'>contact</NavLinkElement>
       </ul>
     </nav>
   );

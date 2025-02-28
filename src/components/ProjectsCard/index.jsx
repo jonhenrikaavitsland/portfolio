@@ -31,7 +31,7 @@ export default function ProjectsCard() {
   const tagsJsFw = ['HTML', 'tailwind', 'react / javascript', 'vite'];
 
   return (
-    <div className='border-y border-black/20'>
+    <div className='border-y border-black/20' id='projects'>
       <div className='flex flex-col gap-15 lg:container mx-auto py-15 px-5'>
         <div className='flex gap-5 md:gap-15'>
           <section className='grow flex items-center'>

@@ -18,12 +18,12 @@
  *
  * @returns {JSX.Element} The rendered navigation link element.
  */
-export default function NavLinkElement({ children, handleClick }) {
+export default function NavLinkElement({ children, path }) {
   return (
     <li>
-      <button className='py-2 capitalize cursor-pointer hover:underline hover:underline-offset-8' onClick={handleClick}>
+      <a href={path} className='py-2 block capitalize cursor-pointer hover:underline hover:underline-offset-8'>
         {children}
-      </button>
+      </a>
     </li>
   );
 }

@@ -29,7 +29,7 @@ export default function SkillsCard() {
   const tagsProblemSolving = ['project management', 'agile methodology', 'kanban', 'gantt', 'user testing', 'unit-testing', 'E2E testing', 'jest', 'vitest', 'cypress', 'playwright'];
 
   return (
-    <div className='flex flex-col gap-15 px-5 py-15 lg:container md:mx-auto'>
+    <div className='flex flex-col gap-15 px-5 py-15 lg:container md:mx-auto' id='skills'>
       <div className='flex gap-5 md:gap-15'>
         <div className='h-20 aspect-square md:h-45'>
           <img src='/maximize-duotone-solid.svg' alt='skills and expertise icon' className='h-20 md:h-45 aspect-square' />

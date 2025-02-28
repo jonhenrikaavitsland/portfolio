@@ -14,7 +14,7 @@
  */
 export default function Contact() {
   return (
-    <div className='border-b border-black/20'>
+    <div className='border-b border-black/20' id='contact'>
       <div className='lg:container flex flex-col md:flex-row gap-10 md:gap-0 mx-auto px-5 py-15 '>
         <section className='flex-1 flex flex-col gap-6 md:justify-center text-center md:text-start'>
           <h2 className='font-bold text-xl md:text-[2.5rem]/12 capitalize'>get in touch</h2>

@@ -4,3 +4,7 @@
   --breakpoint-xl: initial;
   --breakpoint-2xl: initial;
 }
+
+html {
+  @apply scroll-smooth;
+}

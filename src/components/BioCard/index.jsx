@@ -40,7 +40,9 @@ export default function BioCard() {
         </section>
         <div className='flex grow items-center justify-center md:justify-end'>
           <div>
-            <a className='p-3 block rounded-lg capitalize bg-black hover:bg-black/20 text-white font-semibold cursor-pointer'>view projects</a>
+            <a href='#projects' className='p-3 block rounded-lg capitalize bg-black hover:bg-black/20 text-white font-semibold cursor-pointer'>
+              view projects
+            </a>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function Contact() {
             <span className='capitalize'>interested</span> in collaborating? <span className='capitalize'>drop</span> me a message!
           </p>
         </section>
-        <div className='flex-1 flex md:flex-col gap-5 mx-auto md:mx-0'>
+        <div className='flex-1 flex flex-wrap justify-center md:flex-col gap-5'>
           <div>
             <a href='https://www.linkedin.com/in/jon-henrik-aavitsland-abaa872b7/' target='blank' className='block text-center p-3 rounded-lg capitalize w-40 bg-black hover:bg-black/60 text-white font-semibold cursor-pointer'>
               linkedIn

@@ -1,6 +1,6 @@
 import holidaze from '/holidaze.jpg';
 import bidbliss from '/bidbliss.jpg';
-import jsfw from '/jsfw.jpg';
+import jsfw from '/quickshop.jpg';
 import Project from './Project';
 
 /**
@@ -80,12 +80,12 @@ export default function ProjectsCard() {
             repoUrl='https://github.com/jonhenrikaavitsland/jsf-ca'
             description={
               <p>
-                <span className='capitalize'>the</span> online shop was created as a first react project to demonstrate what I had learned about frontend frameworks. The app features a website that sells a variety of different products were the user
-                can add to cart and complete the purchasing process.
+                <span className='capitalize'>quick</span> <span className='capitalize'>shop</span> was created as a first react project to demonstrate what I had learned about frontend frameworks. The app features a website that sells a variety of
+                different products were the user can add to cart and complete the purchasing process.
               </p>
             }
           >
-            online shop
+            quick shop
           </Project>
         </div>
       </div>

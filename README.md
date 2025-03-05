@@ -1,6 +1,6 @@
 # My Portfolio
 
-![image]("/public/portfolio.jpg")
+![image](/public/portfolio.jpg)
 
 This is my portfolio after finishing a higher professional degree in Front-End Development.
 
